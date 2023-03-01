@@ -11,6 +11,7 @@
 		4E886FA829A9112A0077F21B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886FA729A9112A0077F21B /* ContentView.swift */; };
 		4E886FAA29A9112C0077F21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E886FA929A9112C0077F21B /* Assets.xcassets */; };
 		4E886FAD29A9112C0077F21B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E886FAC29A9112C0077F21B /* Preview Assets.xcassets */; };
+		4E886FB429A911C50077F21B /* location manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E886FB329A911C50077F21B /* location manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4E886FA729A9112A0077F21B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E886FA929A9112C0077F21B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E886FAC29A9112C0077F21B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E886FB329A911C50077F21B /* location manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "location manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4E886FA529A9112A0077F21B /* ZaHunter1App.swift */,
 				4E886FA729A9112A0077F21B /* ContentView.swift */,
+				4E886FB329A911C50077F21B /* location manager.swift */,
 				4E886FA929A9112C0077F21B /* Assets.xcassets */,
 				4E886FAB29A9112C0077F21B /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E886FA829A9112A0077F21B /* ContentView.swift in Sources */,
+				4E886FB429A911C50077F21B /* location manager.swift in Sources */,
 				4E886FA629A9112A0077F21B /* ZaHunter1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
