@@ -1,9 +1,12 @@
 //
-//  location manager.swift
+//  LocationManager.swift
 //  ZaHunter1
 //
-//  Created by James on 2/24/23.
+//  Created by James on 3/7/23.
+//
 import CoreLocation
+import Foundation
+
 class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
     var locationManager = CLLocationManager()
     var geocoder = CLGeocoder()
@@ -14,4 +17,3 @@ class LocationManager: NSObject, CLLocationManagerDelegate, ObservableObject {
         locationManager.startUpdatingLocation()
     }
 }
-
